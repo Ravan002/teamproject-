@@ -1,108 +1,65 @@
-.header{
-    background-color: rgb(247, 231, 202);
-    padding: 20px;
-    text-align: left;
+.welcome{
+    display: inline-block;
+    position: relative;
+    top: -150px;
 }
-
+.logoname{
+    display: inline-block;
+    margin-left: 100px;
+}
+.back1{
+    background-color: rgba(10, 10, 10,0.85);
+    background-size: cover;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.back2{
+    background-color:white;
+    border-radius: 30px;
+    width: 400px;
+    margin: 20px;
+}
+.body{
+    background-image: url(imagecs.jpg);
+    margin: 0;
+    background-size: 100% 660px;
+    background-repeat: no-repeat;
+}
+.header{
+    background-color: rgb(48, 46, 42);
+    padding: 30px;
+    text-align: right;
+}
+p{
+    color: black;
+    font-size: 36px;
+    font-weight: 400;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul li{
+    color:black;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 120px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 a{
     text-decoration: none;
     font-size: 20px;
     font-family: sans-serif;
-    color: black;
-    background-color: white;
-    margin: 0 20px;
-    padding: 10px;
-    border-radius: 30px;
-}
-
-.header a:hover{
-    background-color: palevioletred;
     color: white;
+    margin: 0 20px;
 }
-
-.body{
-    background-image: url(image3.jpg);
-    background-repeat: no-repeat;
-    margin:0;
-    background-size: 100% 660px;
-}
-.welcome{
-    text-align: center;
+.header a:hover{
+    color: rgb(40, 187, 245);
 }
 .welcome p{
-    font-size:50px;
-    font-weight: bold;
-    font-style: italic;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-} 
-.body2{
-    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_900243400_200013332000928019_376415.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
-ul li{
+    color:white;
     font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.teamnamelogo{
-    color:black;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.nameplace{
-    position: absolute;
-    top: 250px;
-    left: 200px;
-}
-.logoplace{
-    position: absolute;
-    top: 250px;
-    right: 200px;
-}
-.header2{
-    background-color: black;
-    padding: 20px;
-    text-align: left;
-}
- 
-.teamname1{
-    color: black;
-    font-size: 25px;
-    font-weight: bolder;
-    background-color: rgba(245, 222, 179,0.75);
-    width: fit-content;
-    border-radius: 10px;
 
-}
-.teamname{
-    color: black;
-    font-size: 35px;
-    font-weight: bolder; 
-    background-color: rgba(245, 222, 179,0.75);
-    width: fit-content;
-    border-radius: 10px;
-
-
-}
-.sections{
-    text-align: center;
-}
-.backcolor{
-    font-size: 20px;
-    font-family: sans-serif;
-    color: black;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 10px;
-    border: 1px solid black;
-    background-color: rgba(255, 255, 255,0.5);
-    width: fit-content;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-.body3{
+.body2{
     margin: 0;
 }
 .person1backcolor{
@@ -126,13 +83,13 @@ ul li{
 .person1{
     display: inline-block;
     position: relative;
+    text-align: center;
     top: -100px;
     left: 40px;
 }
 
 .person h1, .person1 h2{
     color: black;
-    text-align: center;
 }
 .info1{
     font-size: 16px;
@@ -149,8 +106,9 @@ ul li{
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
 .field1{
-    background-color: rgba(54, 130, 192,0.80);
+    background-color: rgba(54, 130, 192,0.90);
     border-radius: 10px;
     border: 3px dotted #161853;
     width: fit-content;
@@ -178,9 +136,19 @@ ul li{
     font-size: 30px;
     color: rgb(230, 17, 98);
 }
+.header2 img{
+    float: left;
+}
 .iconlinkedin{
     font-size: 30px;
     color: rgb(29, 189, 218);
+}
+.icontw{
+    font-size: 22px;
+    color:white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(29, 189, 218);
 }
 .person2backcolor{
     background-color: #CFB784;
@@ -190,4 +158,246 @@ ul li{
 }
 .person4backcolor{
     background-color: #A09F57;
+}
+.header2{
+    background-color: black;
+    padding: 30px;
+    text-align: right;
+}
+.header2 a:hover{
+    color: rgb(40, 187, 245);
+}
+.field2{
+    background-color: rgba(54, 130, 192,0.90);
+    border-radius: 10px;
+    border: 3px dotted #161853;
+    width: fit-content;
+    position: absolute;
+    top: 1005px;
+    right: 30px;
+}
+.field2 p{
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.field3{
+    background-color: rgba(54, 130, 192,0.90);
+    border-radius: 10px;
+    border: 3px dotted #161853;
+    width: fit-content;
+    position: absolute;
+    top: 1560px;
+    left: 30px;
+}
+.field3 p{
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.field4{
+    background-color: rgba(54, 130, 192,0.90);
+    border-radius: 10px;
+    border: 3px dotted #161853;
+    width: fit-content;
+    position: absolute;
+    top: 2115px;
+    right: 30px;
+}
+.field4 p{
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header3{
+    background-color: #D3E4CD;
+    text-align: right;
+    padding: 30px;
+}
+.header3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    margin: 0 20px;
+}
+.header3 a:hover{
+    color: rgb(40, 187, 245);
+}
+.body3{
+    margin: 0;
+}
+.webprojectback{
+    background-color: #99A799;
+    text-align: center;
+    padding: 20px;
+}
+.header3 img{
+    float: left;
+}
+.info_web{
+    display:inline-block;
+    width: 500px;
+}
+.table_web{
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: -50px;
+}
+.info_web h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    font-family:sans-serif;
+}
+.subtitle{
+    font-size: 30px;
+    text-align: left;
+    font-family: sans-serif;
+    color: rgb(55, 248, 255);
+    margin: 0px;
+}
+.information{
+    font-size: 18px;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+th, td{
+    text-align: center;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.courseback1{
+    margin-bottom: 20px;
+    background-color: #F2DDC1;
+    text-align: center;
+}
+.courseback2{
+    background-color: #E2C2B9;
+    text-align: center;
+}
+.person1course{
+    display: inline-block;
+}
+.person1course a{
+    color:  black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: -100px;
+    margin: 10px;
+    padding: 5px;
+}
+.person1course img{
+    width: 450px;
+    height: 250px;
+    border:  1px solid black;
+    border-radius: 10px;
+}
+.header4{
+    background-color: #FFCC1D;
+    text-align: right;
+    padding: 30px;
+}
+.header4 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    margin: 0 20px;
+}
+.header4 a:hover{
+    color: rgb(40, 187, 245);
+}
+.header4 img{
+    float: left;
+}
+.body4{
+    margin: 0;
+}
+.info_event{
+    display:inline-block;
+    width: 500px;
+}
+.info_event h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    font-family:sans-serif;
+}
+.subtitle{
+    font-size: 30px;
+    text-align: left;
+    font-family: sans-serif;
+    color: rgb(55, 248, 255);
+    margin: 0px;
+}
+.information{
+    font-size: 18px;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.hourofcode{
+    display: inline-block;
+}
+.hourofcode img{
+    height: 350px;
+    width: 700px;
+    position: relative;
+    left: 10px;
+    top:-30px;
+}
+.eventback{
+    background-color:#0B4619;
+    text-align: center;
+    padding: 20px;
+}
+.picturesevent{
+    text-align: center;
+    background-color: #116530;
+}
+.picturesevent h1{
+    margin: 0;
+    color:white;
+    padding: 20px;
+}
+.pictures{
+    text-align: center;
+}
+.picture1{
+    display: inline-block;
+}
+.picture1 img{
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+}
+.picture2{
+    display: inline-block;
+}
+.picture2 img{
+    width: 600px;
+    height: 400px;
+    margin: 20px;
 }
